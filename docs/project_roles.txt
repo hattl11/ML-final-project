@@ -1,0 +1,82 @@
+
+https://docs.google.com/document/d/100H9OGM6RsspGx09fUzQOk_bv65r5axZ1xqBMeBRTr0/edit?usp=sharing
+
+1. Data & Preprocessing Lead (Zubair & Imaad) 
+Responsibilities
+Load the CIC-IDS2017 Wednesday dataset.
+
+
+Handle missing values, remove Heartbleed flows, relabel DoS variants → attack, others → benign.
+
+
+Scale/normalize features, encode categorical columns.
+
+
+Create the required 20-row snapshot for submission.
+
+
+Document data-cleaning steps in the notebook.
+
+
+
+
+2. Modeling Lead (Hattie)
+Responsibilities
+Train baseline supervised models (e.g., RandomForest, XGBoost, Logistic Regression).
+
+
+Tune hyperparameters and document methodology.
+
+
+Compare models on precision/recall/F1/AUC and pick one final model.
+
+
+Save model and preprocessing pipeline for inference.
+
+
+
+
+3. Evaluation & Validation Lead
+Responsibilities
+Design and run validation strategy (e.g., time-based split to avoid leakage).
+
+
+Generate confusion matrices, ROC/PR curves.
+
+
+Aggregate and interpret metrics.
+
+
+Ensure reproducibility (fixed random seeds, same scaling, etc.).
+
+
+
+
+4. Documentation & ADR Lead 
+Responsibilities
+Draft the Architecture Decision Record (ADR) explaining data prep, model choice, evaluation rationale, and results.
+
+
+Gather visuals from teammates and integrate them into the final notebook/presentation.
+
+
+Ensure the notebook reads cleanly and meets the project’s formatting guidelines.
+
+
+
+
+5. Presentation & Integration Lead (Lingjie)
+Responsibilities
+Combine all notebook sections, check code runs cleanly.
+
+
+Design slides for the final presentation.
+
+
+Coordinate the narrative (problem → method → results → takeaway).
+
+
+Lead or co-lead the group presentation.
+
+
+
